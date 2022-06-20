@@ -1,16 +1,17 @@
 package guru.springframework.domain;
 
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+// This is a plain Junit 4 test.
 public class CategoryTest {
 
     Category category;
 
-    @BeforeEach
+    @Before
     public void setUp(){
         category = new Category();
     }
