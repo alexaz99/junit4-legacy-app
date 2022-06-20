@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// This is a plain JUnit 5 test
 class NotesTest {
 
     @BeforeEach
@@ -13,6 +14,6 @@ class NotesTest {
 
     @Test
     void getId() {
-        assertEquals(3, 3);
+        assertEquals(1, 1);
     }
 }
